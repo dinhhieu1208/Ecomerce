@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
+
 import { useRouter } from 'next/navigation';
 
 export default function Header() {
@@ -64,7 +65,7 @@ export default function Header() {
             </button>
 
             {/* Giỏ hàng & User */}
-            <Link href="/register">
+            <Link href="/login">
               <img src="/icons/user.svg" alt="User" className="w-6 h-6" />
             </Link>
             <Link href="/cart">
