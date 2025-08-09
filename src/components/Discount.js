@@ -6,7 +6,7 @@ const DiscountBox = () => {
   };
 
   return (
-    <div className="text-center">
+    <div className="text-center px-4 md:px-0">
       <p className="text-2xl font-medium text-gray-800">
         Đăng ký ngay & giảm giá 15%
       </p>

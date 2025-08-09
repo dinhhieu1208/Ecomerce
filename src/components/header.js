@@ -30,7 +30,7 @@ export default function Header() {
               <Link href="/product">Sản Phẩm</Link>
             </li>
             <li className="relative after:absolute after:h-[1.5px] after:bg-black after:left-0 after:bottom-[-2px] hover:after:scale-x-100 after:scale-x-0 after:w-full after:transition-all after:duration-300">
-              <Link href="/blog">Giới thiệu</Link>
+              <Link href="/introduce">Giới thiệu</Link>
             </li>
             <li className="relative after:absolute after:h-[1.5px] after:bg-black after:left-0 after:bottom-[-2px] hover:after:scale-x-100 after:scale-x-0 after:w-full after:transition-all after:duration-300">
               <Link href="/contact">Liên Hệ</Link>
@@ -132,13 +132,13 @@ export default function Header() {
           <div className="fixed top-0 left-0 w-64 h-full bg-white text-black z-40 p-6 space-y-6 shadow-lg">
             <ul className="space-y-5 text-base text-black divide-y divide-gray-600 ">
               <li>
-                <Link href="/">Giới Thiệu</Link>
+                <Link href="/">Trang Chủ</Link>
               </li>
               <li>
                 <Link href="/product">Sản Phẩm</Link>
               </li>
               <li>
-                <Link href="/blog">Bài Viết</Link>
+                <Link href="/introduce">Bài Viết</Link>
               </li>
               <li>
                 <Link href="/contact">Liên Hệ</Link>
