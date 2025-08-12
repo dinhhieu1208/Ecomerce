@@ -87,7 +87,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <DiscountBox className="px-4 md:px-0" />
+      <DiscountBox />
     </div>
   );
 };
