@@ -1,8 +1,11 @@
 'use client';
 import React, { useState } from 'react';
 import CartTotal from '../../../components/cartTotal.js';
+import { useRouter } from 'next/navigation';
 
 const Cart = () => {
+  const router = useRouter();
+
   // Dữ liệu mẫu giỏ hàng
   const [cartData, setCartData] = useState([
     {
@@ -102,7 +105,9 @@ const Cart = () => {
           <CartTotal />
           <div className="w-full text-end">
             <button
-              onClick={() => alert('Đi đến trang thanh toán')}
+              onClick={() => {
+                router.push('/payment');
+              }}
               className="bg-black text-white text-sm my-8 px-8 py-3"
             >
               Thanh toán
